@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>App</title>
+
+        <style>
+
+            body{
+                margin: 0;
+            }
+
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                width: 100%;
+            }
+
+            .box{
+                width: 50%;
+                height: 100vh;
+                background-color: white;
+            }
+
+            .form{
+
+                margin: 5vh;
+                width: 100%;
+            }
+
+         
+
+        </style>
+    </head>
+    <body>
+
+        <div id="container" class="container">
+            <div class="box">
+                <div class="form">
+                    <form>
+                        <p>Left Mouse Button -> rotate cube</p>
+                        <p>Scroll -> zoom</p>
+                        <label>Width: <input id="width" type="number"> </label><br/>
+                        <label>Heigth: <input id="heigth" type="number"></label><br/>
+                        <label>Depth: <input id="depth" type="number"></label><br/>
+
+                        <label>Background Color: <input id="background-color" type="color"> </label><br/>
+                        <label>Box Color: <input id="box-color" type="color"> </label>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </body> 
+</html>
